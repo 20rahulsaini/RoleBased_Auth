@@ -57,39 +57,6 @@ public class SecurityConfig  {
 	
 	
 	
-
-
-
-//	@Bean
-//	 public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity)throws Exception {
-//         httpSecurity.csrf(AbstractHttpConfigurer::disable)
-//          .authorizeHttpRequests(req->
-//           req.requestMatchers("/home/user-details")
-//          .hasRole("ADMIN")
-//          .requestMatchers("/home/admin-details")
-//          .hasRole("USER")
-//          .requestMatchers("/home/public")
-//          .permitAll()
-//          .anyRequest()
-//          .authenticated()
-//          
-//          
-//        );
-//          
-//         
-//          
-//        
-//       
-//          
-//         
-//         return httpSecurity.build();
-//    		 
-//    		 
-//  
-//    		
-//    	
-//	
-//	}
 	
 	
 	
